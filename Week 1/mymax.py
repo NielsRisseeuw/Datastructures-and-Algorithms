@@ -2,6 +2,7 @@ def mymax(a):
 
     assert len(a) != 0, "Error: List length cannot be 0!"
 
+    # Checks each index if it is bigger than MaxNumber, if it is. MaxNumber = i and continues
     MaxNumber = a[0]
     for i in a:
         assert isinstance(i, (int, float)), "Error, non digit variable in MyList"
